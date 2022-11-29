@@ -1,9 +1,14 @@
 using System;
 
-namespace gameLocation;
+namespace wizert;
 
 public static class Wizert 
 {
+    public static int hp = 100;
+    public static int mp = 200;
+
+    
+
    public static userMove()
    {
        Console.WriteLine("Which direction would you like to move?");
